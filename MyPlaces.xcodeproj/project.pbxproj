@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		EFCA2D1E27725C57002EC178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D1D27725C57002EC178 /* AppDelegate.swift */; };
 		EFCA2D2027725C57002EC178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */; };
-		EFCA2D2227725C57002EC178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D2127725C57002EC178 /* ViewController.swift */; };
 		EFCA2D2527725C57002EC178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2327725C57002EC178 /* Main.storyboard */; };
 		EFCA2D2727725C58002EC178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2627725C58002EC178 /* Assets.xcassets */; };
 		EFCA2D2A27725C58002EC178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2827725C58002EC178 /* LaunchScreen.storyboard */; };
+		EFCA2D3227725CD7002EC178 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D3127725CD7002EC178 /* MainTableViewController.swift */; };
+		EFCA2D3427725F50002EC178 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */; };
+		EFCA2D36277260B1002EC178 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D35277260B1002EC178 /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFCA2D1A27725C57002EC178 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCA2D1D27725C57002EC178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFCA2D2127725C57002EC178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFCA2D2427725C57002EC178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFCA2D2627725C58002EC178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFCA2D2927725C58002EC178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFCA2D2B27725C58002EC178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCA2D3127725CD7002EC178 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EFCA2D35277260B1002EC178 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				EFCA2D1D27725C57002EC178 /* AppDelegate.swift */,
 				EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */,
-				EFCA2D2127725C57002EC178 /* ViewController.swift */,
 				EFCA2D2327725C57002EC178 /* Main.storyboard */,
+				EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */,
+				EFCA2D3127725CD7002EC178 /* MainTableViewController.swift */,
+				EFCA2D35277260B1002EC178 /* PlaceModel.swift */,
 				EFCA2D2627725C58002EC178 /* Assets.xcassets */,
 				EFCA2D2827725C58002EC178 /* LaunchScreen.storyboard */,
 				EFCA2D2B27725C58002EC178 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFCA2D2227725C57002EC178 /* ViewController.swift in Sources */,
 				EFCA2D1E27725C57002EC178 /* AppDelegate.swift in Sources */,
+				EFCA2D3427725F50002EC178 /* CustomTableViewCell.swift in Sources */,
+				EFCA2D36277260B1002EC178 /* PlaceModel.swift in Sources */,
+				EFCA2D3227725CD7002EC178 /* MainTableViewController.swift in Sources */,
 				EFCA2D2027725C57002EC178 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
