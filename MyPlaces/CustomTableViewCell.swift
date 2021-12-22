@@ -15,7 +15,11 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet var typeLabel: UILabel!
     
     func configure(with places: Place) {
-        imageOfPlace.image = UIImage(named: places.image)
+        if places.image == nil {
+            imageOfPlace.image = UIImage(named: places.restaurantImage ?? "camera.fill")
+        } else {
+            imageOfPlace.image = places.image
+        }
         nameLabel.text = places.name
         locationLabel.text = places.location
         typeLabel.text = places.type

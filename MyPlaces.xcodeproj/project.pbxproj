@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2F34EA2773B95100FDD6AF /* NewPlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F34E92773B95100FDD6AF /* NewPlaceTableViewController.swift */; };
 		EFCA2D1E27725C57002EC178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D1D27725C57002EC178 /* AppDelegate.swift */; };
 		EFCA2D2027725C57002EC178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */; };
 		EFCA2D2527725C57002EC178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2327725C57002EC178 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF2F34E92773B95100FDD6AF /* NewPlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceTableViewController.swift; sourceTree = "<group>"; };
 		EFCA2D1A27725C57002EC178 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCA2D1D27725C57002EC178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				EFCA2D1D27725C57002EC178 /* AppDelegate.swift */,
 				EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */,
 				EFCA2D2327725C57002EC178 /* Main.storyboard */,
+				EF2F34E92773B95100FDD6AF /* NewPlaceTableViewController.swift */,
 				EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */,
 				EFCA2D3127725CD7002EC178 /* MainTableViewController.swift */,
 				EFCA2D35277260B1002EC178 /* PlaceModel.swift */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2F34EA2773B95100FDD6AF /* NewPlaceTableViewController.swift in Sources */,
 				EFCA2D1E27725C57002EC178 /* AppDelegate.swift in Sources */,
 				EFCA2D3427725F50002EC178 /* CustomTableViewCell.swift in Sources */,
 				EFCA2D36277260B1002EC178 /* PlaceModel.swift in Sources */,
@@ -310,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.MyPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = MyPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.MyPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = MyPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
