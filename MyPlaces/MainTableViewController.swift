@@ -9,7 +9,7 @@ import UIKit
 
 class MainTableViewController: UITableViewController {
 
-    var places = Place.getPlaces()
+//    var places = Place.getPlaces()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,20 +18,20 @@ class MainTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        places.count
-    }
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        places.count
+//    }
 
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomTableViewCell
-        let place = places[indexPath.row]
-        
-        cell.configure(with: place)
-
-
-        return cell
-    }
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomTableViewCell
+//        let place = places[indexPath.row]
+//
+//        cell.configure(with: place)
+//
+//
+//        return cell
+//    }
     
 
     // MARK: - Navigation
@@ -43,7 +43,7 @@ class MainTableViewController: UITableViewController {
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         guard let newPlaceVC = segue.source as? NewPlaceTableViewController else { return }
         newPlaceVC.saveNewPlace()
-        places.append(newPlaceVC.newPlace!)
+//        places.append(newPlaceVC.newPlace!)
         tableView.reloadData()
     }
 

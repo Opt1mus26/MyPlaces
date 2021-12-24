@@ -68,11 +68,11 @@ class NewPlaceTableViewController: UITableViewController, UINavigationController
         } else {
             image = UIImage(systemName: "camera")
         }
-        newPlace = Place(name: placeNameTF.text!,
-                         location: placeLocationTF.text,
-                         type: placeTypeTF.text,
-                         image: image,
-                         restaurantImage: nil)
+//        newPlace = Place(name: placeNameTF.text!,
+//                         location: placeLocationTF.text,
+//                         type: placeTypeTF.text,
+//                         image: image,
+//                         restaurantImage: nil)
     }
     
 }
