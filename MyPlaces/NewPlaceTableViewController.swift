@@ -8,8 +8,6 @@
 import UIKit
 
 class NewPlaceTableViewController: UITableViewController, UINavigationControllerDelegate {
-
-    var newPlace: Place?
     
     var imageIsChanged = false
     
@@ -62,17 +60,23 @@ class NewPlaceTableViewController: UITableViewController, UINavigationController
     }
     
     func saveNewPlace() {
+        
         var image: UIImage?
         if imageIsChanged {
             image = placeImage.image
         } else {
             image = UIImage(systemName: "camera")
         }
-//        newPlace = Place(name: placeNameTF.text!,
-//                         location: placeLocationTF.text,
-//                         type: placeTypeTF.text,
-//                         image: image,
-//                         restaurantImage: nil)
+      
+        let imageData = image?.pngData()
+        
+        let newPlace = Place(name: placeNameTF.text!,
+                             location: placeLocationTF.text,
+                             type: placeTypeTF.text,
+                             imageData: imageData)
+        
+        StorageManager.saveObject(newPlace)
+        
     }
     
 }
