@@ -68,6 +68,7 @@
                                     <outlet property="locationLabel" destination="hbS-7h-4T2" id="8Gd-da-t3m"/>
                                     <outlet property="nameLabel" destination="8Mu-bO-Vjp" id="voK-U9-VP8"/>
                                     <outlet property="typeLabel" destination="iAs-sk-3aT" id="c6e-0J-43g"/>
+                                    <segue destination="sx1-lT-gXd" kind="show" id="yyK-jm-V4V"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -255,7 +256,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huH-45-o6E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="cDy-ju-iOs" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1848" y="13"/>
+            <point key="canvasLocation" x="1187" y="13"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ECK-T3-rtY">
@@ -271,7 +272,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="15R-Xd-Yex" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1129" y="13"/>
+            <point key="canvasLocation" x="1188" y="-640"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wph-Fm-8WJ">
@@ -293,6 +294,9 @@
             <point key="canvasLocation" x="-306" y="13"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yyK-jm-V4V"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Unnamed" width="279" height="304"/>
         <systemColor name="systemBackgroundColor">
