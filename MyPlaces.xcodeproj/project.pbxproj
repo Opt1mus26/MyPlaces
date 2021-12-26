@@ -15,7 +15,7 @@
 		EFCA2D2527725C57002EC178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2327725C57002EC178 /* Main.storyboard */; };
 		EFCA2D2727725C58002EC178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2627725C58002EC178 /* Assets.xcassets */; };
 		EFCA2D2A27725C58002EC178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2827725C58002EC178 /* LaunchScreen.storyboard */; };
-		EFCA2D3227725CD7002EC178 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D3127725CD7002EC178 /* MainTableViewController.swift */; };
+		EFCA2D3227725CD7002EC178 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D3127725CD7002EC178 /* MainViewController.swift */; };
 		EFCA2D3427725F50002EC178 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */; };
 		EFCA2D36277260B1002EC178 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D35277260B1002EC178 /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,7 @@
 		EFCA2D2627725C58002EC178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFCA2D2927725C58002EC178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFCA2D2B27725C58002EC178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFCA2D3127725CD7002EC178 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		EFCA2D3127725CD7002EC178 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		EFCA2D35277260B1002EC178 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		FFB298EE17F6C59C095894A3 /* Pods_MyPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +93,7 @@
 				EFCA2D2327725C57002EC178 /* Main.storyboard */,
 				EF2F34E92773B95100FDD6AF /* NewPlaceTableViewController.swift */,
 				EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */,
-				EFCA2D3127725CD7002EC178 /* MainTableViewController.swift */,
+				EFCA2D3127725CD7002EC178 /* MainViewController.swift */,
 				EFCA2D35277260B1002EC178 /* PlaceModel.swift */,
 				EF5B5B4527764E1E0081E902 /* StorageManager.swift */,
 				EFCA2D2627725C58002EC178 /* Assets.xcassets */,
@@ -223,7 +223,7 @@
 				EFCA2D3427725F50002EC178 /* CustomTableViewCell.swift in Sources */,
 				EF5B5B4627764E1E0081E902 /* StorageManager.swift in Sources */,
 				EFCA2D36277260B1002EC178 /* PlaceModel.swift in Sources */,
-				EFCA2D3227725CD7002EC178 /* MainTableViewController.swift in Sources */,
+				EFCA2D3227725CD7002EC178 /* MainViewController.swift in Sources */,
 				EFCA2D2027725C57002EC178 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
