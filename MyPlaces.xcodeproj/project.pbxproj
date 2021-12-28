@@ -10,6 +10,7 @@
 		530B09A7C2E7A1BA85E6D2E5 /* Pods_MyPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB298EE17F6C59C095894A3 /* Pods_MyPlaces.framework */; };
 		EF2F34EA2773B95100FDD6AF /* NewPlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2F34E92773B95100FDD6AF /* NewPlaceTableViewController.swift */; };
 		EF5B5B4627764E1E0081E902 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B5B4527764E1E0081E902 /* StorageManager.swift */; };
+		EFA1F128277B8F3500DADC6C /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F127277B8F3500DADC6C /* RatingControl.swift */; };
 		EFCA2D1E27725C57002EC178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D1D27725C57002EC178 /* AppDelegate.swift */; };
 		EFCA2D2027725C57002EC178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */; };
 		EFCA2D2527725C57002EC178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCA2D2327725C57002EC178 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		7E792A873A5D0B5E4858B874 /* Pods-MyPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaces.debug.xcconfig"; path = "Target Support Files/Pods-MyPlaces/Pods-MyPlaces.debug.xcconfig"; sourceTree = "<group>"; };
 		EF2F34E92773B95100FDD6AF /* NewPlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceTableViewController.swift; sourceTree = "<group>"; };
 		EF5B5B4527764E1E0081E902 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		EFA1F127277B8F3500DADC6C /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		EFCA2D1A27725C57002EC178 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCA2D1D27725C57002EC178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,13 +92,14 @@
 			children = (
 				EFCA2D1D27725C57002EC178 /* AppDelegate.swift */,
 				EFCA2D1F27725C57002EC178 /* SceneDelegate.swift */,
-				EFCA2D2327725C57002EC178 /* Main.storyboard */,
+				EFCA2D3127725CD7002EC178 /* MainViewController.swift */,
 				EF2F34E92773B95100FDD6AF /* NewPlaceTableViewController.swift */,
 				EFCA2D3327725F50002EC178 /* CustomTableViewCell.swift */,
-				EFCA2D3127725CD7002EC178 /* MainViewController.swift */,
+				EFA1F127277B8F3500DADC6C /* RatingControl.swift */,
 				EFCA2D35277260B1002EC178 /* PlaceModel.swift */,
 				EF5B5B4527764E1E0081E902 /* StorageManager.swift */,
 				EFCA2D2627725C58002EC178 /* Assets.xcassets */,
+				EFCA2D2327725C57002EC178 /* Main.storyboard */,
 				EFCA2D2827725C58002EC178 /* LaunchScreen.storyboard */,
 				EFCA2D2B27725C58002EC178 /* Info.plist */,
 			);
@@ -222,6 +225,7 @@
 				EFCA2D1E27725C57002EC178 /* AppDelegate.swift in Sources */,
 				EFCA2D3427725F50002EC178 /* CustomTableViewCell.swift in Sources */,
 				EF5B5B4627764E1E0081E902 /* StorageManager.swift in Sources */,
+				EFA1F128277B8F3500DADC6C /* RatingControl.swift in Sources */,
 				EFCA2D36277260B1002EC178 /* PlaceModel.swift in Sources */,
 				EFCA2D3227725CD7002EC178 /* MainViewController.swift in Sources */,
 				EFCA2D2027725C57002EC178 /* SceneDelegate.swift in Sources */,
