@@ -185,8 +185,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TMg-H1-qH7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="32"/>
+                                <segments>
+                                    <segment title="Data"/>
+                                    <segment title="Name"/>
+                                </segments>
+                                <connections>
+                                    <action selector="sotrSelection:" destination="AKR-gx-1pl" eventType="valueChanged" id="N6n-kq-ipy"/>
+                                </connections>
+                            </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="yDF-k6-Pgv">
-                                <rect key="frame" x="0.0" y="127" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="144" width="414" height="752"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -251,30 +261,19 @@
                                     <outlet property="delegate" destination="AKR-gx-1pl" id="fpS-rP-xPW"/>
                                 </connections>
                             </tableView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TMg-H1-qH7">
-                                <rect key="frame" x="0.0" y="88" width="414" height="39"/>
-                                <segments>
-                                    <segment title="Data"/>
-                                    <segment title="Name"/>
-                                </segments>
-                                <connections>
-                                    <action selector="sotrSelection:" destination="AKR-gx-1pl" eventType="valueChanged" id="aQL-eD-y0p"/>
-                                </connections>
-                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="msu-uq-ff8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="TMg-H1-qH7" firstAttribute="top" secondItem="msu-uq-ff8" secondAttribute="top" id="5bR-pR-ywq"/>
                             <constraint firstItem="TMg-H1-qH7" firstAttribute="leading" secondItem="msu-uq-ff8" secondAttribute="leading" id="Xz6-Z1-XJ2"/>
-                            <constraint firstItem="yDF-k6-Pgv" firstAttribute="top" secondItem="TMg-H1-qH7" secondAttribute="bottom" constant="1" id="oGC-Gx-iA4"/>
                             <constraint firstItem="msu-uq-ff8" firstAttribute="trailing" secondItem="TMg-H1-qH7" secondAttribute="trailing" id="qeB-T6-ydU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My Places" largeTitleDisplayMode="never" id="faD-uc-WBw">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="AZ" id="zrx-65-7Fl">
                             <connections>
-                                <action selector="reversedSorting:" destination="AKR-gx-1pl" id="SKT-jX-wkb"/>
+                                <action selector="reversedSorting:" destination="AKR-gx-1pl" id="qIp-j2-Gv9"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="zEb-Gq-NOC">
@@ -284,7 +283,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="reversedSortingButton" destination="zrx-65-7Fl" id="oIH-dK-oai"/>
+                        <outlet property="reversedSortingButton" destination="zrx-65-7Fl" id="dAs-3d-O3e"/>
                         <outlet property="segmentedControl" destination="TMg-H1-qH7" id="xCd-ND-2WU"/>
                         <outlet property="tableView" destination="yDF-k6-Pgv" id="Qdj-t1-Crj"/>
                     </connections>

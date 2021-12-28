@@ -18,10 +18,9 @@ class NewPlaceTableViewController: UITableViewController, UINavigationController
     @IBOutlet var placeTypeTF: UITextField!
     @IBOutlet var saveButton: UIBarButtonItem!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         saveButton.isEnabled = false
         placeNameTF.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
         setupEditScreen()
@@ -54,8 +53,8 @@ class NewPlaceTableViewController: UITableViewController, UINavigationController
             actionSheet.addAction(camera)
             actionSheet.addAction(photo)
             actionSheet.addAction(cancel)
-            present(actionSheet, animated: true)
             
+            present(actionSheet, animated: true)
         } else {
             view.endEditing(true)
         }
@@ -69,7 +68,7 @@ class NewPlaceTableViewController: UITableViewController, UINavigationController
         } else {
             image = UIImage(systemName: "camera")
         }
-      
+        
         let imageData = image?.pngData()
         
         let newPlace = Place(name: placeNameTF.text!,
