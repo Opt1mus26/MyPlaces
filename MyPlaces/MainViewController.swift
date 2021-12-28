@@ -9,7 +9,7 @@ import RealmSwift
 import UIKit
 
 class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+    //tupo comment
     @IBOutlet var tableView: UITableView!
     @IBOutlet var segmentedControl: UISegmentedControl!
     @IBOutlet var reversedSortingButton: UIBarButtonItem!
@@ -25,7 +25,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     private var isFiltering: Bool {
         return searchController.isActive && !searchBarIsEmpty
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,7 +96,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     @IBAction func sotrSelection(_ sender: UISegmentedControl) {
-        
         sorting()
     }
     
